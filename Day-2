@@ -66,3 +66,31 @@ int main() {
 }
 }
 
+// Problem 6 -- Switch Statement 
+
+#include <iostream> 
+using namespace std;
+
+int main() {
+    int choice;
+    cin>> choice;
+   
+    switch(choice) {
+    case 1:
+    cout << "Transferring call to the support team...";
+    break;
+    case 2:
+    cout << "Transferring call to the billing and accounts department...";
+    break;
+    case 3:
+    cout << "Connecting call to the Technical Team";
+    break;
+    case 4:
+    cout << "Please wait while we are connecting your call to an agent";
+    break;
+    default:
+    cout <<"Enter a valid choice...";
+        
+    }
+}
+
