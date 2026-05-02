@@ -51,9 +51,13 @@ int main() {
     cin >> n;
     int fact = 1;
     
-    for(int i = n; i >= i--) {
-        fact = fact * i
+    for(int i = n; i >= 1; i--) {
+        fact = fact * i;
     }
+    cout << fact;
+        
+        return 0;
+ }
         cout << fact;
         
         return 0;
